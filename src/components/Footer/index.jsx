@@ -47,7 +47,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
                 <TextWidget
                   logoSrc="/images/Redtra.png"
                   logoAlt="Logo"
-                  text="Welcome to arino sed ut perspiciae omunde omnis iste natus error sitort voluptatem accusantium."
+                  text="We specialized in ERPNext and Nextcloud solutions for business like yours. From installation to implementation, we provide a complete solution."
                 />
                 <SocialWidget />
               </Div>
@@ -66,7 +66,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
               <Div className="cs-footer_item">
                 <Newsletter
                   title="Subscribe"
-                  subtitle="At vero eos et accusamus et iusto odio as part dignissimos ducimus qui blandit."
+                  subtitle="Thank you for choosing us as your partner on this journey!"
                   placeholder="example@gmail.com"
                 />
               </Div>
@@ -77,7 +77,7 @@ export default function Footer({ copyrightText, logoSrc, logoAlt, text }) {
       <Div className="container">
         <Div className="cs-bottom_footer">
           <Div className="cs-bottom_footer_left">
-            <Div className="cs-copyright">Copyright © 2022 Laralink.</Div>
+            <Div className="cs-copyright">Copyright © 2024 Redtra.</Div>
           </Div>
           <Div className="cs-bottom_footer_right">
             <MenuWidget menuItems={copyrightLinks} variant=" cs-style2" />

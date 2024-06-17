@@ -16,8 +16,8 @@ import LogoList from '../LogoList';
 import PostList from '../Post/PostList';
 const heroSocialLinks = [
   {
-    name: 'Behance',
-    links: '/',
+    name: 'Linkedin',
+    links: 'https://www.linkedin.com/company/redtra/',
   },
   {
     name: 'Twitter',
@@ -27,46 +27,46 @@ const heroSocialLinks = [
 const funfaceData = [
   {
     title: 'Digital products',
-    factNumber: '550',
+    factNumber: '5',
   },
   {
     title: 'Global happy clients',
-    factNumber: '40K',
+    factNumber: '500',
   },
   {
     title: 'Project completed',
-    factNumber: '50k',
+    factNumber: '80',
   },
   {
     title: 'Team members',
-    factNumber: '250',
+    factNumber: '25',
   },
 ];
 const serviceData1 = [
   {
-    title: 'UI/UX Design',
+    title: 'Web Development',
     href: '/service/service-details',
   },
   {
-    title: 'Marketing',
+    title: 'Mobile App Development',
     href: '/service/service-details',
   },
   {
-    title: 'Branding',
+    title: 'eCommerce Development',
     href: '/service/service-details',
   },
 ];
 const serviceData2 = [
   {
+    title: 'Custom ERP Software Development',
+    href: '/service/service-details',
+  },
+  {
     title: 'SEO',
     href: '/service/service-details',
   },
   {
-    title: 'App design',
-    href: '/service/service-details',
-  },
-  {
-    title: 'React Developer',
+    title: 'Digital Marketing',
     href: '/service/service-details',
   },
 ];
@@ -152,8 +152,8 @@ export default function DigitalAgencyHome() {
         scrollDownId="#service"
         socialLinksHeading="Follow Us"
         heroSocialLinks={heroSocialLinks}
-        phoneNumber="+044 546664"
-        email="info@arino.com"
+        phoneNumber="+971 556607727"
+        email="info@redtra.com"
       />
       {/* End Hero Section */}
 
@@ -194,7 +194,7 @@ export default function DigitalAgencyHome() {
           <Div className="row">
             <Div className="col-lg-5 col-xl-4">
               <SectionHeading
-                title="Uk’s best digital agency ever"
+                title="Gulf best digital agency ever"
                 subtitle="Why Choose Us"
                 btnText="Learn More"
                 btnLink="/about"
